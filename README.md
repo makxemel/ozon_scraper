@@ -70,7 +70,7 @@ env file:
 
 ## Telegram
 
-8)
+5)
 ```bash
    python manage.py tgbot
    ```
