@@ -52,7 +52,7 @@ env file:
    ```
 2) Autocreate superuser (optional). **Login:** admin, **password**: admin
    ```bash
-   python manage.py create_superuser
+   python manage.py createsuperuser
    ```
 3) Run app
    ```bash 
@@ -69,7 +69,8 @@ env file:
 
 ## Telegram
 
-8)```bash
+8)
+```bash
    python manage.py tgbot
    ```
    
