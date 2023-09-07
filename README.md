@@ -16,22 +16,22 @@ cd ozon_scraper
 ### Presetting
 1) Create an .env file and fill it with the pattern from example.env
 env file:
-> URL_OZON_SHOP_TO_SCRAP='https://www.ozon.ru/seller/1/products/'
-> PRODUCTS_PER_PAGE=36
-> PRODUCTS_COUNT=10
+> URL_OZON_SHOP_TO_SCRAP='https://www.ozon.ru/seller/1/products/'<br>
+> PRODUCTS_PER_PAGE=36<br>
+> PRODUCTS_COUNT=10<br>
 
-> TOKEN = ''
-> BOT_USERNAME = ''
+> TOKEN = ''<br>
+> BOT_USERNAME = ''<br>
 
-> CELERY_BROKER_URL = "redis://localhost:6379"
-> CELERY_RESULT_BACKEND = "redis://localhost:6379"
+> CELERY_BROKER_URL = "redis://localhost:6379"<br>
+> CELERY_RESULT_BACKEND = "redis://localhost:6379"<br>
 
-> DB_ENGINE='django.db.backends.postgresql'
-> DB_NAME='postgres'
-> DB_USER='postgres'
-> POSTGRES_PASSWORD='postgres'
-> DB_HOST='localhost'
-> DB_PORT=5432
+> DB_ENGINE='django.db.backends.postgresql'<br>
+> DB_NAME='postgres'<br>
+> DB_USER='postgres'<br>
+> POSTGRES_PASSWORD='postgres'<br>
+> DB_HOST='localhost'<br>
+> DB_PORT=5432<br>
 
 2) Install requirements
     ```bash
