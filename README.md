@@ -1,4 +1,5 @@
-**Parser ozon products**
+**Parser ozon products**<br>
+*Store goods scraper for ozone. Implemented on DRF using Celery and Redis with sending information to a Telegram bot*
 
 <hr/>
 
